@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Open Sans';
+    background-color: #004175;
+    color: #ffffff;
+    padding: 25px;
+    border: solid;
+    border-width: 1px;
+    border-color: #89DEEF;
+    text-indent: 25px;
+}
