@@ -4,26 +4,38 @@
     padding: 0;
 }
 
-body {
-    text-indent: 60px;
-}
-
-.main {
-    font-family: 'Open Sans', sans-serif;
-}
-
 .header {
     font-family: 'Open Sans', sans-serif;
     background-color: #004175;
     color: #ffffff;
     padding: 30px;
     border-bottom: 2px solid #89DEEF;
-    text-indent: 25px;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.main-title {
-    margin-bottom: 10px;
+.title > h2 {
+    margin-left: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title > p {
+    margin-left: 25px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main {
+    width: 1000px;
+    height: 2000px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 5px solid black;
 }
 
 .img-caption {
@@ -32,66 +44,195 @@ body {
     font-size: large;
 }
 
-.dog-traits {
+.beans-div {
+    width: 300px;
+    height: 300px;
+}
+
+.beans-img {
+    width: 200px;
+    height: 200px;
+}
+
+.beans-traits > ul li {
     background-color: #89DEEF;
     border-radius: 10px; 
-    margin-bottom: 40px;
-    border-left: 0px;
+    display: flex;
+    margin-bottom: 5px;
+    width: 60px;
+    font-size: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
 
-.beans {
-    width: 30%;
-    height: auto;
+.zelda-div {
+    width: 300px;
+    height: 300px;
 }
 
-.zelda {
-    width: 35%;
-    height: auto;
+.zelda-img {
+    width: 200px;
+    height: 200px;
 }
 
-.baby {
-    width: 30%;
-    height: auto;
+.zelda-traits > ul li {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
 
-.tom-tom {
-    width: 35%;
-    height: auto;
+.baby-div {
+    width: 300px;
+    height: 300px;
 }
 
-.marco {
-    width: 30%;
-    height: auto;
+.baby-img {
+    width: 200px;
+    height: 200px;
 }
 
-.shackleton {
-    width: 35%;
-    height: auto;
+.baby-traits > ul li {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
 
-.midge {
-    width: 35%;
-    height: auto;
+.tom-tom-div {
+    width: 300px;
+    height: 300px;
 }
 
-.ladybird {
-    width: 30%;
-    height: auto;
+.tom-tom-img {
+    width: 200px;
+    height: 200px;
 }
 
-.mina {
-    width: 35%;
-    height: auto;
+.tom-tom-traits > ul li {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.marco-div {
+    width: 300px;
+    height: 300px;
+}
+
+.marco-img {
+    width: 200px;
+    height: 200px;
+}
+
+.marco-traits > ul li {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+
+.shackleton-div {
+    width: 300px;
+    height: 300px;
+}
+
+.shackleton-img {
+    width: 200px;
+    height: 200px;
+}
+
+.shackleton-traits > ul li {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.midge-div {
+    width: 300px;
+    height: 300px;
+}
+
+.midge-img {
+    width: 200px;
+    height: 200px;
+}
+
+.midge-traits > ul li {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.ladybird-div {
+    width: 300px;
+    height: 300px;
+}
+
+
+.ladybird-img {
+    width: 200px;
+    height: 200px;
+}
+
+.ladybird-traits > ul li {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.mina-div {
+    width: 300px;
+    height: 300px;
+}
+
+.mina-img {
+    width: 200px;
+    height: 200px;
+}
+
+.mina-traits > ul li {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
 
 .footer {
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
+    width: 300px;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
 }
 
 .nav > h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
     height: 200px;
     width: 200px;
+    display: flex;
+    flex-direction: row;
 }
 
 .donate {
@@ -100,6 +241,9 @@ body {
     background-size: 100% 100%;
     margin-left: 50px;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .volunteer {
@@ -107,6 +251,9 @@ body {
     background-size: 100% 100%;
     margin-left: 50px;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .our-location {
@@ -114,4 +261,7 @@ body {
     background-size: 100% 100%;
     margin-left: 50px;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
