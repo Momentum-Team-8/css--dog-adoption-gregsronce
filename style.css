@@ -19,18 +19,27 @@
     padding-left: 30px;
 }
 
+.title-info > h2 {
+    margin-bottom: 20px;
+}
+
 .title-info > p {   
-    margin-bottom: 30px;  
+    margin-bottom: 10px;  
 }
 
 .main {
     width: 1000px;
-    height: 2000px;
+    height: 1000px;
     font-family: 'Open Sans', sans-serif;
+    padding-left: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    border: 5px solid black;
+}
+
+.dog-img {
+    max-width: 100%;
+    height: auto; 
 }
 
 .img-caption {
@@ -41,25 +50,16 @@
 
 .beans-div {
     width: 300px;
-    height: 300px;
+    height: 300px; 
 }
 
-.beans-img {
-    width: 200px;
-    height: 200px;
-}
-
-.beans-traits > ul li {
+.traits > ul li {
     background-color: #89DEEF;
     border-radius: 10px; 
-    display: flex;
-    margin-bottom: 5px;
-    width: 60px;
-    font-size: 15px;
-    flex-direction: column;
-    flex-wrap: wrap;
-    list-style-type: none;
-    justify-content: space-around;
+    padding: 3px;
+    display: inline-block;
+    font-size: 10px;
+    list-style-type: none; 
 }
 
 .zelda-div {
@@ -67,114 +67,42 @@
     height: 300px;
 }
 
-.zelda-img {
-    width: 200px;
-    height: 200px;
-}
 
-.zelda-traits > ul li {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-}
 
 .baby-div {
     width: 300px;
     height: 300px;
 }
 
-.baby-img {
-    width: 200px;
-    height: 200px;
-}
 
-.baby-traits > ul li {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-}
 
 .tom-tom-div {
     width: 300px;
     height: 300px;
 }
 
-.tom-tom-img {
-    width: 200px;
-    height: 200px;
-}
 
-.tom-tom-traits > ul li {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-}
 
 .marco-div {
     width: 300px;
     height: 300px;
 }
 
-.marco-img {
-    width: 200px;
-    height: 200px;
-}
 
-.marco-traits > ul li {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-    
-}
 
 .shackleton-div {
     width: 300px;
     height: 300px;
 }
 
-.shackleton-img {
-    width: 200px;
-    height: 200px;
-}
 
-.shackleton-traits > ul li {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-}
 
 .midge-div {
     width: 300px;
     height: 300px;
 }
 
-.midge-img {
-    width: 200px;
-    height: 200px;
-}
 
-.midge-traits > ul li {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-}
 
 .ladybird-div {
     width: 300px;
@@ -182,38 +110,13 @@
 }
 
 
-.ladybird-img {
-    width: 200px;
-    height: 200px;
-}
-
-.ladybird-traits > ul li {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-}
 
 .mina-div {
     width: 300px;
     height: 300px;
 }
 
-.mina-img {
-    width: 200px;
-    height: 200px;
-}
 
-.mina-traits > ul li {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-}
 
 .footer {
     width: 300px;
