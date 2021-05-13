@@ -37,6 +37,11 @@
     flex-wrap: wrap;
 }
 
+.info-div {
+    width: 300px;
+    height: 300px; 
+}
+
 .dog-img {
     max-width: 100%;
     height: auto; 
@@ -48,11 +53,6 @@
     font-size: large;
 }
 
-.beans-div {
-    width: 300px;
-    height: 300px; 
-}
-
 .traits > ul li {
     background-color: #89DEEF;
     border-radius: 10px; 
@@ -60,46 +60,6 @@
     display: inline-block;
     font-size: 10px;
     list-style-type: none; 
-}
-
-.zelda-div {
-    width: 300px;
-    height: 300px;
-}
-
-.baby-div {
-    width: 300px;
-    height: 300px;
-}
-
-.tom-tom-div {
-    width: 300px;
-    height: 300px;
-}
-
-.marco-div {
-    width: 300px;
-    height: 300px;
-}
-
-.shackleton-div {
-    width: 300px;
-    height: 300px;
-}
-
-.midge-div {
-    width: 300px;
-    height: 300px;
-}
-
-.ladybird-div {
-    width: 300px;
-    height: 300px;
-}
-
-.mina-div {
-    width: 300px;
-    height: 300px;
 }
 
 .footer {
