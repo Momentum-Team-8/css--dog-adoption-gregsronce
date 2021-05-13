@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+body {
+    text-indent: 60px;
+}
+
+.main {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .header {
     font-family: 'Open Sans', sans-serif;
     background-color: #004175;
@@ -14,14 +22,109 @@
     margin-bottom: 25px;
 }
 
-body {
-    text-indent: 60px;
-}
-
 .main-title {
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
+.img-caption {
+    font-weight: bold;
+}
 
+.beans {
+    width: 30%;
+    height: auto;
+}
 
+.beans-info {
+    background-color: #89DEEF;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.zelda {
+    width: 35%;
+    height: auto;
+}
+
+.zelda-info {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
+.baby {
+    width: 30%;
+    height: auto;
+}
+
+.baby-info {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
+.tom-tom {
+    width: 35%;
+    height: auto;
+}
+
+.tom-tom-info {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
+.marco {
+    width: 30%;
+    height: auto;
+}
+
+.marco-info {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
+.shackleton {
+    width: 35%;
+    height: auto;
+}
+
+.shackleton-info {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
+.midge {
+    width: 35%;
+    height: auto;
+}
+
+.midge-info {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
+.ladybird {
+    width: 30%;
+    height: auto;
+}
+
+.ladybird-info {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
+.mina {
+    width: 35%;
+    height: auto;
+}
+
+.mina-info {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
