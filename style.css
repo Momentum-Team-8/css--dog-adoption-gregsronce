@@ -30,15 +30,15 @@ body {
     font-weight: bold;
 }
 
+.dog-info {
+    background-color: #89DEEF;
+    border-radius: 10px; 
+    margin-bottom: 10px;
+}
+
 .beans {
     width: 30%;
     height: auto;
-}
-
-.beans-info {
-    background-color: #89DEEF;
-    border-radius: 10px;
-    margin-bottom: 10px;
 }
 
 .zelda {
@@ -46,21 +46,9 @@ body {
     height: auto;
 }
 
-.zelda-info {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    margin-bottom: 10px;
-}
-
 .baby {
     width: 30%;
     height: auto;
-}
-
-.baby-info {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    margin-bottom: 10px;
 }
 
 .tom-tom {
@@ -68,21 +56,9 @@ body {
     height: auto;
 }
 
-.tom-tom-info {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    margin-bottom: 10px;
-}
-
 .marco {
     width: 30%;
     height: auto;
-}
-
-.marco-info {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    margin-bottom: 10px;
 }
 
 .shackleton {
@@ -90,21 +66,9 @@ body {
     height: auto;
 }
 
-.shackleton-info {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    margin-bottom: 10px;
-}
-
 .midge {
     width: 35%;
     height: auto;
-}
-
-.midge-info {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    margin-bottom: 10px;
 }
 
 .ladybird {
@@ -112,19 +76,7 @@ body {
     height: auto;
 }
 
-.ladybird-info {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    margin-bottom: 10px;
-}
-
 .mina {
     width: 35%;
     height: auto;
-}
-
-.mina-info {
-    background-color: #89DEEF;
-    border-radius: 10px; 
-    margin-bottom: 10px;
 }
