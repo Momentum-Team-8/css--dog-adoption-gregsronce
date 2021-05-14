@@ -62,13 +62,15 @@
     list-style-type: none; 
 }
 
-.footer {
+.nav {
     display: flex;
-    flex: 1 1 auto;
-    justify-content: flex-start;
+    flex-direction: row;
 }
 
 .nav > h1 {
+    display: flex;
+    flex: 1 1 auto;
+    height: 250px;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     color: #ffffff;
@@ -77,23 +79,34 @@
     align-items: center;
 }
 
-.donate {
+.donate-image {
     margin-top: 30px;
-    background-image: url(https://raw.githubusercontent.com/Momentum-Team-8/css--dog-adoption-gregsronce/main/starter_files/images/donate.jpg);
+    background-color: #a6a9f0;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.70),rgba(166, 169, 240, 0.70)),
+    url(https://raw.githubusercontent.com/Momentum-Team-8/css--dog-adoption-gregsronce/main/starter_files/images/donate.jpg);
     background-size: 100% 100%;
-    margin-left: 50px;
+    
     
 }
 
-.volunteer {
-    background-image: url(https://raw.githubusercontent.com/Momentum-Team-8/css--dog-adoption-gregsronce/main/starter_files/images/location.png);
+.volunteer-image {
+    margin-top: 30px;
+    background-color: #a6a9f0;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.70),rgba(166, 169, 240, 0.70)),
+    url(https://raw.githubusercontent.com/Momentum-Team-8/css--dog-adoption-gregsronce/main/starter_files/images/volunteer.jpg);
     background-size: 100% 100%;
-    margin-left: 50px;
+    
 }
     
-.our-location {
-    background-image: url(https://raw.githubusercontent.com/Momentum-Team-8/css--dog-adoption-gregsronce/main/starter_files/images/volunteer.jpg);
+.our-location-image {
+    margin-top: 30px;
+    background-color: #a6a9f0;
+    background: linear-gradient(
+        rgba(166, 169, 240, 0.70),rgba(166, 169, 240, 0.70)),
+    url(https://raw.githubusercontent.com/Momentum-Team-8/css--dog-adoption-gregsronce/main/starter_files/images/location.png);
     background-size: 100% 100%;
-    margin-left: 50px;
+    
     
 }
